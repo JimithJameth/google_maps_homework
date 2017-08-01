@@ -17,7 +17,7 @@ var initialize = function(){
   var bounceButton = document.querySelector('#button-bounce-markers');
   bounceButton.addEventListener('click', mainMap.bounceMarkers.bind(mainMap));
 
-  var homeButton  = document.querySelector('#take-me-home');
+  var homeButton  = document.querySelector('#MyHome');
   homeButton.addEventListener('click', mainMap.setCenter.bind(mainMap));
 }
 window.addEventListener('load', initialize)
